@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int num1,num2;
+    int Quotient,Remainder;
+    scanf("%d %d",&num1,&num2);
+
+    Quotient=num1/num2;
+    Remainder=num1%num2;
+
+
+    
+    printf("Quotient=%d Remainder=%d",Quotient,Remainder);
+    
+    return 0;
+}
