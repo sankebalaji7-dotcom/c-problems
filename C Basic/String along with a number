@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int Age=20;
+    int count=5;
+
+    printf("Age%d\n",Age);
+    printf("count%d\n",count);
+    
+    return 0;
+}
