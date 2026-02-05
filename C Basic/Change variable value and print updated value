@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+  int x,nvalue;
+
+    scanf("%d",&x); 
+
+    scanf("%d",&nvalue); 
+
+    x=nvalue;  
+
+    printf("%d",x);   
+    
+    return 0;
+}
