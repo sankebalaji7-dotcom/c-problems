@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int I;
+
+    scanf("%d",&I);
+
+    I++;
+
+    printf("%d",I);
+    
+    return 0;
+}
