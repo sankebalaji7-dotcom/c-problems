@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int NUM;
+
+    scanf("%d",&NUM);
+
+    if(NUM>=1 && NUM<=5){
+        printf("weekday");
+       
+    }
+    else{
+        printf("weekend");
+    }
+    
+    return 0;
+}
