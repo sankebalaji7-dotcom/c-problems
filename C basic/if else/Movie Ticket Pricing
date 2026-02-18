@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int age;
+
+    scanf("%d",&age);
+    
+    if(age<=12){
+        printf("discount ticker");
+    }
+    else{
+        printf("regular ticket");
+    }
+    return 0;
+}
