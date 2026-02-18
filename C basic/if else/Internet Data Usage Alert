@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    float GB_used;
+
+    scanf("%f",&GB_used);
+
+    if(GB_used>=2.5)
+    {
+        printf("Data limit exceeded");
+    }
+     else{
+        printf("Data limit");
+     }
+    return 0;
+}
