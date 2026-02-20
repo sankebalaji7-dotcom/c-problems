@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int AC;
+    scanf("%d",&AC);
+
+    if(AC<18){
+        printf("Heating mode");
+    }
+    else if(AC<25){
+        printf("Normal");
+    }
+    else{
+        printf("Colling mode");
+    }
+    
+    return 0;
+}
