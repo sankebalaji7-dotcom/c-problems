@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main(){
+ int num;
+
+ scanf("%d",&num);
+ 
+
+ if(num<0){
+
+    printf("negetive");
+ }
+ else if(num==0){
+
+    printf("Nutral");
+ }
+
+ else{
+
+    printf("Positive");
+ }
+ 
+ 
+ 
+ 
+ return 0;
+
+}
