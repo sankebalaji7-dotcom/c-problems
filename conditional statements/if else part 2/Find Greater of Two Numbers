@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int num;
+
+    scanf("%d",&num);
+
+    if(num>10){
+
+        printf("grater");
+    }
+    else{
+
+        printf("lesser");
+    }
+    
+    return 0;
+}
