@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+    int ticket;
+
+    scanf("%d",&ticket);
+
+    if(ticket==5){
+
+        printf("Confirmed");
+    }
+    else if(ticket==0){
+
+        printf("Waighting list");
+    }
+    else if(ticket==1){
+
+        printf("Confirmed");
+    }
+    else{
+        printf("Invalid ticket");
+    }
+    
+    return 0;
+}
