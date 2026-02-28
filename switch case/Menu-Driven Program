@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+    int a,b,sum;
+
+    scanf("%d %d %d",&a,&b,&sum);
+
+    switch(sum){
+      case 1:
+       printf("REsult=%d",a+b);
+       break;
+      case 2:
+      printf("Result=%d",a-b);
+      break;
+      case 3:
+       printf("Result=%d",a/b);
+       break;
+
+       default:
+       printf("invalid");
+    }
+    return 0;
+}
