@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main() {
+    int accounttype;
+    int intrestRate;
+    int years;
+      
+      scanf("%d",&accounttype);
+      scanf("%d",&years);
+
+    switch(accounttype){
+   
+   case 1:
+    intrestRate=4;
+    break;
+    case 2:
+    if(years<=3){
+        intrestRate=5;
+    }
+    else{
+        intrestRate=7;
+    }
+    break;
+}
+    
+    default:
+    printf("invalid savings");
+
+    }
+    printf("%d",intrestRate);
+    return 0;
